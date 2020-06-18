@@ -10,9 +10,12 @@ import Rank from './components/Rank/Rank';
 import Particles from 'react-particles-js';
 import './App.css';
 
+
+
 const app = new Clarifai.App({
  apiKey: 'daa78852e8d44871a64e87c30760b2ec'
 });
+
 
 const particlesOptions = {
   
@@ -97,7 +100,7 @@ class App extends Component {
          
        .then(response => {
          if (response) {
-          fetch('http://localhost:3000/image' , {
+          fetch(' https://morning-meadow-71143.herokuapp.com/image' , {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
