@@ -25,13 +25,21 @@ You may find it interesting while you hover over the logo of my app . Do try it!
 
 So basically to detect a face in any image you need to have a link to that image . An easy way of testing this is , just google "face" from where you will find a lot of faces in the image section , right click upon any image and then click on "copy image address" and  then paste it on that search box , wait for a while and then boom! your face will get detected .
 
-### Image Count Increment AND Rank
+### Image Count Increment and Rank
 
 Everytime you click the detect button your image count will increase and you rank will also get updated in realtime .
 
 ## SECURITY FEATURE
 
 All the passwords which you enter in the register or login page are encrypted into a "hash" . Actually the "bcrypt-nodejs" package is used so that your passwords remain hidden in the form of a "hash" which is just a piece of gibberish so that if someone ever tries to get into the database to see the password of a particular user , only thing he could see is just a piece of gibberish which is quite impossibe to decode!!
+
+## BACKEND
+
+The backend for this app is also hosted on heroku find more about it on my github repository [Smartface-backend](https://github.com/tend2infinity/smartface-backend)
+
+## DATABASE
+
+I have used heroku postgres for the database of this app which stores the user information including "name" , "password" , "email" and other details like joining time stamp .
 
 ## DEPLOYMENT
 
