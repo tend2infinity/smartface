@@ -35,6 +35,6 @@ All the passwords which you enter in the register or login page are encrypted in
 
 ## DEPLOYMENT
 
-I have deployed the app on HEROKU [the link is provided here]{https://smartface2001.herokuapp.com} 
+I have deployed the app on HEROKU [the link is provided here](https://smartface2001.herokuapp.com)
 
 
