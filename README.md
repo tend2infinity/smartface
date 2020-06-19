@@ -35,7 +35,7 @@ All the passwords which you enter in the register or login page are encrypted in
 
 ## BACKEND
 
-The backend for this app is also hosted on heroku find more about it on my github repository [Smartface-backend](https://github.com/tend2infinity/smartface-backend)
+The backend for this app has been done using "NODE.js and EXPRESS.js" and is also hosted on heroku find more about it on my github repository [Smartface-backend](https://github.com/tend2infinity/smartface-backend)
 
 ## DATABASE
 
