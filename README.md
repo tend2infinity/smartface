@@ -29,6 +29,10 @@ So basically to detect a face in any image you need to have a link to that image
 
 Everytime you click the detect button your image count will increase and you rank will also get updated in realtime .
 
+## API USED
+
+I have used CLARIFAI image detection API in my App . Clarifai provides API free of cost , actually you can too check that out on their website .
+
 ## SECURITY FEATURE
 
 All the passwords which you enter in the register or login page are encrypted into a "hash" . Actually the "bcrypt-nodejs" package is used so that your passwords remain hidden in the form of a "hash" which is just a piece of gibberish so that if someone ever tries to get into the database to see the password of a particular user , only thing he could see is just a piece of gibberish which is quite impossibe to decode!!
