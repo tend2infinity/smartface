@@ -19,11 +19,11 @@ After logging in successfully you will be directed to the image endpoint page .
 
 ### The Logo
 
-You may find it interesting while you hover over the logo of my app . Do try it!!
+You may find it interesting while you hover over the logo of my app . Actually extensive javascript is used for making the logo "tilt" in a very specific manner at different angles as you hover over the logo at different points in the logo . Do try it!!
 
 ### The Search Box
 
-So basically to detect a face in any image you need to have a link to that image . An easy way of testing this is , just google "face" from where you will find a lot of faces in the image section , right click upon any image and then click on "copy image address" and  then paste it on that search box , wait for a while and then boom! your face will get detected .
+So basically to detect a face in any image you need to have a link to that image .  A http link is necessary since our API works in this way . As you paste the image link in the search box , the image will open and the face will get detected by a blue highlighted square around the face . An easy way of testing this is , just google "face" from where you will find a lot of faces in the image section , right click upon any image and then click on "copy image address" and  then paste it on that search box , wait for a while and then boom! your face will get detected .
 
 ### Image Count Increment and Rank
 
