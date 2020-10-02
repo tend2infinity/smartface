@@ -43,7 +43,7 @@ The backend for this app has been done using "NODE.js and EXPRESS.js" and is als
 
 ## DATABASE
 
-I have used heroku postgres for the database of this app which stores the user information including "name" , "password" , "email" and other details like joining time stamp .
+I have used heroku postgres for the database of this app which stores the user information including "name" , "password" , "email" and other details like joining time stamp.
 
 ## DEPLOYMENT
 
